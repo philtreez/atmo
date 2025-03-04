@@ -140,7 +140,7 @@ window.device = null; // Für sendValueToRNBO
 let parameterQueue = {};
 
 async function setupRNBO() {
-  const patchExportURL = "https://atmo469p-philtreezs-projects.vercel.app/export/patch.export.json";
+  const patchExportURL = "https://atmo-philtreezs-projects.vercel.app/export/patch.export.json";
   const WAContext = window.AudioContext || window.webkitAudioContext;
   const context = new WAContext();
   const outputNode = context.createGain();
